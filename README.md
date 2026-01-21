@@ -21,7 +21,7 @@ Rather than restarting the entire scan, the wrapper:
 - Re-runs those specific services (e.g., `instagram`, `linkedin`)
 - Executes retries under a **new VPN identity**
 
-### 📜 Forensic Logging
+### Forensic Logging
 Generates timestamped investigation logs for:
 - Evidence preservation  
 - Repeatability  
@@ -29,7 +29,7 @@ Generates timestamped investigation logs for:
 
 ---
 
-## 🛡️ How the Bypass Works
+## How the Bypass Works
 
 The tool implements a **Detect → Rotate → Retry** logic to overcome IP-based rate limiting.
 
